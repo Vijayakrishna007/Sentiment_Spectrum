@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+            <link rel="stylesheet" href="styles2.css">
+            <title>Sentiment analysis</title>
+        </head>
+        <body>
+            
+            <div class="main">
+               <div class="div1">
+                <form id="signupForm">
+                    <label for="usern"><b>User Name :</b> </label>
+                    <input type="text" placeholder="enter username" id="usern">
+                    <br><br>
+                    <label for="usermail"><b>Mail :</b> </label>
+                    <input type=" email " placeholder="enter mail" id="usermail">
+                    <br><br>
+                    <label for="password"><b>Password :</b> </label>
+                    <input type="password" placeholder="enter password" id="password"><br><br>
+                    <label for="repassword"><b>Reenter Password :</b> </label>
+                    <input type="password" placeholder="reenter password" id="repassword">
+                    <div class="tab">
+                        <a href="index.html"><p><b>&larr; go back</b></p></a>
+                        <div class="div2">
+                            <a >
+                                <input type="button" class="btn btn-primary" id="btn"  value="Sign up" onclick="signup()">
+                            </a>
+                            <!-- <button class="btn btn-primary" id="btn" onclick="signup()">Sign up</button> -->
+                        </div>
+                    </div>
+                </form>
+               </div>
+            </div>
+            <script src="scripts.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
